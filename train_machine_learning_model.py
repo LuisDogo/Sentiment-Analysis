@@ -1,3 +1,6 @@
+from sklearn.experimental import enable_halving_search_cv
+from sklearn.model_selection import HalvingGridSearchCV
+
 def main():
     # 5 fold splitting for training
     # train different ml models. Target : f1-macro
